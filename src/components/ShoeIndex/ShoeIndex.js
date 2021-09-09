@@ -50,10 +50,12 @@ const Wrapper = styled.div`
 `;
 
 const LeftColumn = styled.div`
-
+  flex-basis: 248px;
 `;
 
-const MainColumn = styled.div``;
+const MainColumn = styled.div`
+  flex: 1;
+`;
 
 const Header = styled.header`
   display: flex;
