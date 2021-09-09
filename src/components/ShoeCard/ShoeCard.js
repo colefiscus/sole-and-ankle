@@ -69,15 +69,17 @@ const Flag = styled.div`
   position: absolute;
   top: 12px;
   right: 0;
+  margin-right: -4px;
   border-radius: 2px;
+  padding: 8px;
 `;
 
 const OnSaleFlag = styled(Flag)`
-  backgroundColor: ${COLORS.primary};
+  background-color: ${COLORS.primary};
 `;
 
 const NewFlag = styled(Flag)`
-  backgroundColor: ${COLORS.secondary}
+  background-color: ${COLORS.secondary}
 `;
 
 const Image = styled.img`
