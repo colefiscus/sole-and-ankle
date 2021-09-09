@@ -36,6 +36,8 @@ const ShoeCard = ({
       <Wrapper>
         <ImageWrapper>
           <Image alt="" src={imageSrc} />
+          {variant === 'on-sale' && <OnSaleFlag>Sale</OnSaleFlag>}
+          {variant === 'new-release' && <NewFlag>Just Released!</NewFlag>}
         </ImageWrapper>
         <Spacer size={12} />
         <Row>
@@ -60,6 +62,13 @@ const Wrapper = styled.article``;
 const ImageWrapper = styled.div`
   position: relative;
 `;
+
+const OnSaleFlag = styled.div`
+  width: 200px;
+  backgroundColor: red;
+`;
+
+const NewFlag = styled.div``;
 
 const Image = styled.img`
   width: 100%;
