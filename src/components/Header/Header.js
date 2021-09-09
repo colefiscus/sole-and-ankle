@@ -36,7 +36,6 @@ const MainHeader = styled.div`
   display: flex;
   justify-content: center;
   align-items: baseline;
-  border-bottom: ${COLORS.gray[300]};
 `;
 
  const Side = styled.div`
