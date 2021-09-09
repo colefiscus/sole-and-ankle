@@ -63,12 +63,22 @@ const ImageWrapper = styled.div`
   position: relative;
 `;
 
-const OnSaleFlag = styled.div`
-  width: 200px;
-  backgroundColor: red;
+const Flag = styled.div`
+  color: white;
+  height: 32px;
+  position: absolute;
+  top: 12px;
+  right: 0;
+  border-radius: 2px;
 `;
 
-const NewFlag = styled.div``;
+const OnSaleFlag = styled(Flag)`
+  backgroundColor: ${COLORS.primary};
+`;
+
+const NewFlag = styled(Flag)`
+  backgroundColor: ${COLORS.secondary}
+`;
 
 const Image = styled.img`
   width: 100%;
