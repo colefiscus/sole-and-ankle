@@ -72,6 +72,7 @@ const Flag = styled.div`
   right: -4px;
   border-radius: 2px;
   padding: 0px 10px;
+  font-size: ${14 / 18}rem;
 `;
 
 const OnSaleFlag = styled(Flag)`
