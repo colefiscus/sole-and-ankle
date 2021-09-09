@@ -23,13 +23,14 @@ const Header = () => {
           <NavLink href="/kids">Kids</NavLink>
           <NavLink href="/collections">Collections</NavLink>
         </Nav>
+        <Side />
       </MainHeader>
     </header>
   );
 };
 
 const MainHeader = styled.div`
-  // padding: 26px 32px;
+  padding: 18px 32px;
   height: 72px;
   border-bottom: 1px solid ${COLORS.gray[300]};
   display: flex;
@@ -38,12 +39,13 @@ const MainHeader = styled.div`
 `;
 
  const Side = styled.div`
-    
+    flex: 1;
  `;
 
 const Nav = styled.nav`
   display: flex;
   gap: 48px;
+  margin: 0px 48px;
 `;
 
 const NavLink = styled.a`
