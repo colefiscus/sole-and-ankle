@@ -55,13 +55,19 @@ const Link = styled.a`
   color: inherit;
 `;
 
-const Wrapper = styled.article``;
+const Wrapper = styled.article`
+  width: 340px;
+`;
 
 const ImageWrapper = styled.div`
   position: relative;
+  width: 100%;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  width: 100%;
+  border-radius: 16px 16px 4px 4px;
+`;
 
 const Row = styled.div`
   font-size: 1rem;

@@ -46,15 +46,19 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  align-items: flex-start;
 `;
 
-const LeftColumn = styled.div``;
+const LeftColumn = styled.div`
+  margin-right: 32px;
+`;
 
 const MainColumn = styled.div``;
 
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 `;
 
 const Title = styled.h2`
