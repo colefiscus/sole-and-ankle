@@ -66,12 +66,12 @@ const ImageWrapper = styled.div`
 const Flag = styled.div`
   color: white;
   height: 32px;
+  line-height: 32px;
   position: absolute;
   top: 12px;
-  right: 0;
-  margin-right: -4px;
+  right: -4px;
   border-radius: 2px;
-  padding: 8px;
+  padding: 0px 10px;
 `;
 
 const OnSaleFlag = styled(Flag)`
